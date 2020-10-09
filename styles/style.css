@@ -385,11 +385,12 @@
 }
 
 .footer__link:hover {
-  font-weight: 700;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .footer__social-icon {
   margin-right: 10px;
   height: 16px;
   width: 16px;
+  padding-right: 10px;
 }
