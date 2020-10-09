@@ -180,6 +180,7 @@
 
 .section-title_theme_dark {
   color: white;
+  z-index: 4;
 }
 
 .section-subtitle {
@@ -190,6 +191,7 @@
   font-weight: normal;
   margin-top: 20px;
   margin-bottom: 0;
+  z-index: 4;
 }
 
 .section-subtitle_theme_dark {
@@ -306,14 +308,6 @@
   overflow: hidden;
 }
 
-.kaufman__title {
-  z-index: 4;
-}
-
-.kaufman__subtitle {
-  z-index: 4;
-}
-
 .kaufman__triangle {
   position: absolute;
   background-image: url(../images/kaufman-triangle.svg);
@@ -379,6 +373,9 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+
+  list-style: none;
+  padding-left: 0;
 
   margin-top: 20px;
   margin-bottom: 16px;
