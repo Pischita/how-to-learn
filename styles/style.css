@@ -201,6 +201,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .table_theme_dark {
@@ -226,6 +229,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bolder;
+  margin: 0;
 }
 
 .table__text {
@@ -253,6 +257,7 @@
 .feynman__title {
   width: 648px;
   text-align: center;
+  margin: 0;
   margin-left: auto;
   margin-right: auto;
 
