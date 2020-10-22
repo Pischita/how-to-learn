@@ -9,8 +9,11 @@
 
   color: #2f80ed;
   text-decoration: none;
+
+  opacity: 1;
+  transition: opacity 0.3s;
 }
 
 .feynman__link:hover {
-  font-weight: 700;
+  opacity: 0.5;
 }
